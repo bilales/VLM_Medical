@@ -1,0 +1,15 @@
+{"time":"2025-06-22T12:52:50.3585115+02:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"C:\\Users\\bilal\\Documents\\VLM_Medical\\wandb\\run-20250622_125250-a15rh6r8\\logs\\debug-core.log"}
+{"time":"2025-06-22T12:52:50.6303914+02:00","level":"INFO","msg":"stream: created new stream","id":"a15rh6r8"}
+{"time":"2025-06-22T12:52:50.6303914+02:00","level":"INFO","msg":"stream: started","id":"a15rh6r8"}
+{"time":"2025-06-22T12:52:50.6303914+02:00","level":"INFO","msg":"handler: started","stream_id":"a15rh6r8"}
+{"time":"2025-06-22T12:52:50.6303914+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"a15rh6r8"}
+{"time":"2025-06-22T12:52:50.6303914+02:00","level":"INFO","msg":"sender: started","stream_id":"a15rh6r8"}
+{"time":"2025-06-22T12:52:50.866444+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-22T12:53:06.0213706+02:00","level":"INFO","msg":"stream: closing","id":"a15rh6r8"}
+{"time":"2025-06-22T12:53:06.0213706+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-22T12:53:06.0213706+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-22T12:53:06.6267427+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-22T12:53:06.7985626+02:00","level":"INFO","msg":"sender: closed","stream_id":"a15rh6r8"}
+{"time":"2025-06-22T12:53:06.7985626+02:00","level":"INFO","msg":"handler: closed","stream_id":"a15rh6r8"}
+{"time":"2025-06-22T12:53:06.7985626+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"a15rh6r8"}
+{"time":"2025-06-22T12:53:06.7985626+02:00","level":"INFO","msg":"stream: closed","id":"a15rh6r8"}

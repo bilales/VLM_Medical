@@ -1,0 +1,15 @@
+{"time":"2025-06-22T21:34:43.5234416+02:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"C:\\Users\\bilal\\Documents\\VLM_Medical\\wandb\\run-20250622_213443-u31io8n2\\logs\\debug-core.log"}
+{"time":"2025-06-22T21:34:43.8074757+02:00","level":"INFO","msg":"stream: created new stream","id":"u31io8n2"}
+{"time":"2025-06-22T21:34:43.8074757+02:00","level":"INFO","msg":"stream: started","id":"u31io8n2"}
+{"time":"2025-06-22T21:34:43.8074757+02:00","level":"INFO","msg":"handler: started","stream_id":"u31io8n2"}
+{"time":"2025-06-22T21:34:43.8074757+02:00","level":"INFO","msg":"sender: started","stream_id":"u31io8n2"}
+{"time":"2025-06-22T21:34:43.8074757+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"u31io8n2"}
+{"time":"2025-06-22T21:34:44.0361531+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-22T21:34:45.3579165+02:00","level":"INFO","msg":"stream: closing","id":"u31io8n2"}
+{"time":"2025-06-22T21:34:45.3579165+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-22T21:34:45.3579165+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-22T21:34:45.9223342+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-22T21:34:46.1282954+02:00","level":"INFO","msg":"handler: closed","stream_id":"u31io8n2"}
+{"time":"2025-06-22T21:34:46.1282954+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u31io8n2"}
+{"time":"2025-06-22T21:34:46.1282954+02:00","level":"INFO","msg":"sender: closed","stream_id":"u31io8n2"}
+{"time":"2025-06-22T21:34:46.1288086+02:00","level":"INFO","msg":"stream: closed","id":"u31io8n2"}

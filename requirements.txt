@@ -1,0 +1,14 @@
+torch
+torchvision
+transformers
+datasets
+peft
+bitsandbytes
+accelerate
+Pillow
+wandb
+sacrebleu
+rouge_score
+einops
+transformers_stream_generator
+# windows -> pip install https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl bitsandbytes==0.41.1

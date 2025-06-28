@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\VLM_Medical\train.py", line 61, in <module>
+    bnb_config = BitsAndBytesConfig(
+  File "C:\Users\bilal\Documents\VLM_Medical\.venv\lib\site-packages\transformers\utils\quantization_config.py", line 508, in __init__
+    self.post_init()
+  File "C:\Users\bilal\Documents\VLM_Medical\.venv\lib\site-packages\transformers\utils\quantization_config.py", line 566, in post_init
+    if self.load_in_4bit and not version.parse(importlib.metadata.version("bitsandbytes")) >= version.parse(
+  File "C:\Users\bilal\AppData\Local\Programs\Python\Python310\lib\importlib\metadata\__init__.py", line 946, in version
+    return distribution(distribution_name).version
+  File "C:\Users\bilal\AppData\Local\Programs\Python\Python310\lib\importlib\metadata\__init__.py", line 919, in distribution
+    return Distribution.from_name(distribution_name)
+  File "C:\Users\bilal\AppData\Local\Programs\Python\Python310\lib\importlib\metadata\__init__.py", line 518, in from_name
+    raise PackageNotFoundError(name)
+importlib.metadata.PackageNotFoundError: No package metadata was found for bitsandbytes

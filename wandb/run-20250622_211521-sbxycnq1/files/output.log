@@ -1,0 +1,21 @@
+A new version of the following files was downloaded from https://huggingface.co/Qwen/Qwen-VL-Chat:
+- visual.py
+. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+The installed version of bitsandbytes was compiled without GPU support. 8-bit optimizers and GPU quantization are unavailable.
+None of the available devices `available_devices = None` are supported by the bitsandbytes version you have installed: `bnb_supported_devices = {'hpu', 'mps', 'npu', 'xpu', 'cuda', '"cpu" (needs an Intel CPU and intel_extension_for_pytorch installed and compatible with the PyTorch version)'}`. Please check the docs to see if the backend you intend to use is available and how to install it: https://huggingface.co/docs/bitsandbytes/main/en/installation#multi-backend
+Traceback (most recent call last):
+  File "C:\Users\bilal\Documents\VLM_Medical\train.py", line 68, in <module>
+    model = AutoModelForCausalLM.from_pretrained(
+  File "C:\Users\bilal\Documents\VLM_Medical\.venv\lib\site-packages\transformers\models\auto\auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "C:\Users\bilal\Documents\VLM_Medical\.venv\lib\site-packages\transformers\modeling_utils.py", line 309, in _wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\bilal\Documents\VLM_Medical\.venv\lib\site-packages\transformers\modeling_utils.py", line 4390, in from_pretrained
+    hf_quantizer.validate_environment(
+  File "C:\Users\bilal\Documents\VLM_Medical\.venv\lib\site-packages\transformers\quantizers\quantizer_bnb_4bit.py", line 84, in validate_environment
+    validate_bnb_backend_availability(raise_exception=True)
+  File "C:\Users\bilal\Documents\VLM_Medical\.venv\lib\site-packages\transformers\integrations\bitsandbytes.py", line 560, in validate_bnb_backend_availability
+    return _validate_bnb_multi_backend_availability(raise_exception)
+  File "C:\Users\bilal\Documents\VLM_Medical\.venv\lib\site-packages\transformers\integrations\bitsandbytes.py", line 517, in _validate_bnb_multi_backend_availability
+    raise RuntimeError(err_msg)
+RuntimeError: None of the available devices `available_devices = None` are supported by the bitsandbytes version you have installed: `bnb_supported_devices = {'hpu', 'mps', 'npu', 'xpu', 'cuda', '"cpu" (needs an Intel CPU and intel_extension_for_pytorch installed and compatible with the PyTorch version)'}`. Please check the docs to see if the backend you intend to use is available and how to install it: https://huggingface.co/docs/bitsandbytes/main/en/installation#multi-backend
